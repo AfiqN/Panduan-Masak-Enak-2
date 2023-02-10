@@ -1,0 +1,73 @@
+.gambar { 
+  width: 15em;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(117, 117, 117);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.gambar {
+  margin: 50px;
+  border-radius: 10px;
+  width: 30em;
+  border: 1px solid #ddd;
+  padding: 5px;
+  height: auto;
+}
+
+.master {
+  margin: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bahan {
+  margin: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cara {
+  margin: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img  {
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+  font-size: 1.3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.back {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 3em;
+  border: 1px solid black;
+  padding: .3em;
+  display:inline-flex;
+}
