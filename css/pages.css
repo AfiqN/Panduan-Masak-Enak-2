@@ -1,5 +1,11 @@
+* {
+  background-color: #f4c531;
+  font-family: "Poppins", sans-serif;
+}
+
 .gambar { 
   width: 15em;
+  background-color: #fff;
 }
 
 a:link {
@@ -15,13 +21,13 @@ a:visited {
 }
 
 a:hover {
-  color: red;
+  color: rgb(0, 0, 0);
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: yellow;
+  color: #f4c531;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -35,19 +41,34 @@ a:active {
   height: auto;
 }
 
+.title {
+  background-color: #fff;
+}
+
 .master {
   margin: 3em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #fff;
+  box-shadow: 0 1.2em 2.5em rgba(42, 32, 0, 0.2);
+  padding: 3em;
 }
+
 
 .bahan {
   margin: 3em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 3em;
+  background-color: #fff;
+  box-shadow: 0 1.2em 2.5em rgba(42, 32, 0, 0.2);
 }
 
 .cara {
   margin: 3em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 3em;
+  background-color: #fff;
+  box-shadow: 0 1.2em 2.5em rgba(42, 32, 0, 0.2);
+}
+
+h2 {
+  background-color: #fff;
 }
 
 .img  {
@@ -56,18 +77,25 @@ a:active {
 
 p {
   font-size: 1.3em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #fff;
 }
 
 li {
   font-size: 1.3em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #fff;
+}
+
+ul, ol{
+  background-color: #fff;
 }
 
 .back {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 3em;
-  border: 1px solid black;
-  padding: .3em;
-  display:inline-flex;
+  padding: 1em;
+  width: fit-content;
+  font-size: 1em;
+  background-color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 0.3em;
 }

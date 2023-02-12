@@ -1,94 +1,249 @@
-body {
-  background-color: #fefeff;
+* {
+  font-family: "Poppins", sans-serif;
 }
-
+body {
+  background-color: #f4c531;
+}
 a:link {
   color: green;
   background-color: transparent;
   text-decoration: none;
 }
-
 a:visited {
-  color: rgb(117, 117, 117);
+  color:  black;
   background-color: transparent;
   text-decoration: none;
 }
-
 a:hover {
-  color: rgb(23, 32, 150);
+  color: rgb(117, 117, 117);
   background-color: transparent;
   text-decoration: underline;
 }
-
 a:active {
-  color: yellow;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
-
-
 .HeadBar {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 1px solid black;
+  background-color: #fff;
+  box-shadow: 0 1.2em 2.5em rgba(42, 32, 0, 0.2);
+  /* border: 1px solid black; */
   text-align: center;
   padding-top: 500px;
   padding-bottom: 500px;
-  margin: 10px;
+  margin: 50px;
 }
 
+.container-api {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 3em 2.8em;
+  width: 90vw;
+  max-width: 32em;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 1em;
+  margin-bottom: 50px;
+  box-shadow: 0 1.2em 2.5em rgba(42, 32, 0, 0.2);
+
+}
+.search-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.2em;
+}
+
+.search-container input {
+  font-size: 1em;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #202030;
+}
+.search-container button {
+  font-size: 1em;
+  background-color: #f4c531;
+  border: none;
+  font-weight: 600;
+  border-radius: 0.3em;
+}
+img{
+  display: block;
+  width: 50%;
+  margin: 1.8em auto 0 auto;
+}
+.details {
+  background-color: #f4c531;
+  position: relative;
+  margin: -4.3em 0 0 0;
+  text-align: center;
+  padding: 0.6em 0;
+}
+.details h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.details h4 {
+  font-size: 1em;
+  font-weight: 400;
+}
+#show-recipe {
+  font-size: 1em;
+  position: relative;
+  left: 75%;
+  padding: 0.9em 0.6em;
+  background-color: #f4c531;
+  border: none;
+  top: 1.5em;
+  border-radius: 0.3em;
+  font-weight: 600;
+}
+#recipe {
+  position: absolute;
+  background-color: #ffff;
+  min-height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 0.6em;
+  display: none;
+}
+#recipe pre{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 2.5em 1.2em 1.2em 1.2em;
+}
+#hide-recipe {
+  font-size: 1em;
+  position: relative;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #f4c531;
+  border: none;
+  top: 1.2em;
+  left: 90%;
+  border-radius: 0.3em;
+}
+ul {
+  font-size: 1em;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.8em 1.1em;
+  padding: 1.2em 0 0 1.2em;
+}
+h3 {
+  text-align: center;
+  margin-top: 1.8em;
+  color: #202030;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 14px;
+  }
+}
 
 .daftarMenu {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 100px;
-  border: 1px solid black;
+  background-color: #fff;
   text-align: center;
   margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
 }
-
 .menu {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: auto;
   padding: 10px;
   height: auto;
   margin: 10px;
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgb(234, 236, 236);
+  background-color: #f4c531;
+  border-radius: 10px;
 }
-
 .col {
   display: flex;
   flex-direction: column;
 }
-
 .row {
   display: flex;
   flex-direction: row;
   align-self: center;
 }
-
 .gambarMenu {
-  border: 1px solid rgb(0, 0, 0);
+  background-color: #fff;
   height: auto;
-  margin: 10px;
+  margin: 20px;
+  padding: 50px;
+  box-shadow: 0 1.2em 2.5em rgba(42, 32, 0, 0.2);
+  /* width: fit-content; */
 }
-
 .gambar {
   border-radius: 10px;
   width: 15em;
+  background-color: #fff;
   border: 1px solid #ddd;
   padding: 5px;
   height: auto;
 }
-
 .namaMenu {
   text-align: center;
 }
-
 .gambarContainer {
   /* border: 1px solid orange; */
   text-align: center;
 }
-
 a {
   text-decoration: none;
+}
+.searchBar {
+  border: 1px solid black;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+.cariMakanan {
+  display: flex;
+}
+.container {
+  border: 1px solid black;
+  margin: 10px;
+  padding-right: 200px;
+}
+.box-search {
+  background-color: #fff;
+  /* border: 1px solid black; */
+  margin: 10px;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+input[type="text"] {
+  background: #fff;
+  width: 350px;
+  height: 50px;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+input[type="submit"] {
+  position: relative;
+  border-radius: 10px 10px 10px 10px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #f4c531;
 }
